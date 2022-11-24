@@ -1,1 +1,7 @@
-speAIk/.vs
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/node_modules
+/my-app
+/.vs
