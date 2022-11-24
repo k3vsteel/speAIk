@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+import Container from './components/Container';
+import BottomNavigation from './components/BottomNavigation';
+import ResponsiveAppBar from './components/Appbar';
+import Grid from './components/Grid';
+import ComplexButtons from './components/ComplexButtons';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-            "Hello World Test test"
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <>
+            <ResponsiveAppBar />
+            <main>
+                <div >
+                    <ComplexButtons />
+                    <BottomNavigation />
+                </div>
+            </main>
+        </>
+    );
 }
 
 export default App;
