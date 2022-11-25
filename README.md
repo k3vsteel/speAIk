@@ -1,2 +1,2 @@
 # speAIk
-new aac system generation
+aac device with ai
